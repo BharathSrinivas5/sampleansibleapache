@@ -1,5 +1,5 @@
-- hosts: test-servers
-  remote_user: ansibleuser
+- hosts: all
+  remote_user: ubuntu
   become: true
   vars:
     project_root: /var/www/html
